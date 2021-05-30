@@ -95,31 +95,31 @@ export default function ONas() {
           </h2>
           <div class="row">
             <div class="mb-3 text-start">
-              <label for="FormControlTextarea1" class="form-label"
-                >Zadejte prosím své jméno:</label
-              >
-              <textarea
+              <label for="FormControlTextarea1" class="form-label">Zadejte prosím své jméno:</label>
+              <input
+                name="jmeno"
+                type="text"
                 class="form-control"
-                id="FormControlTextarea1"
-                rows="1"
-              ></textarea>
+                id="FormControlInput1"
+              />
 
               <div class="mb-3 text-start">
                 <label for="FormControlInput1" class="form-label"
                   >Zadejte svůj email:
                 </label>
                 <input
+                  name="email"
                   type="email"
                   class="form-control"
-                  id="FormControlInput1"
+                  id="FormControlInput2"
                   placeholder="jmeno@email.cz"
                   required
                 />
               </div>
               <div class="mb-3 text-start">
-                <label for="FormControlTextarea1" class="form-label"
-                  >Napište nám svou zprávu:</label>
+                <label for="FormControlTextarea1" class="form-label">Napište nám svou zprávu:</label>
                 <textarea
+                  name="zprava"
                   class="form-control mb-3"
                   id="FormControlTextarea1"
                   rows="3"
