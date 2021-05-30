@@ -84,11 +84,20 @@ export function Navigation() {
                 O nás
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="oNas.html">Kdo jsme</a></li>
                 <li>
-                  <a class="dropdown-item" href="oNas__Gruntujeme.html"
-                    >"Gruntujeme" – série videí o budování našeho gruntu</a
-                  >
+                  <Link href="/o-nas#kdo-jsme">
+                    <a class="dropdown-item">Kdo jsme</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/o-nas#gruntujeme">
+                    <a class="dropdown-item">"Gruntujeme" – série videí o budování našeho gruntu</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/o-nas#kontakt">
+                    <a class="dropdown-item">Kontakt</a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -120,7 +129,7 @@ export function Navigation() {
               </ul>
             </li>
             <a
-              class="nav-link btn btn-outline-warning ms-5 m-2"
+              class="nav-link btn btn-warning ms-5"
               role="button"
               href="https://mariefardova.github.io/byliny/"
               ><strong>HRÁT Bylinář</strong></a
@@ -129,5 +138,11 @@ export function Navigation() {
         </div>
       </div>
     </nav>
+
+
+
+
+
+
   );
 }
